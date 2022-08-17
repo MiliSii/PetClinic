@@ -8,7 +8,6 @@ public class PropertyInjectedController {
     //the least preferred method
     public String getGreeting(){
         return myService.sayGreeting();
-
         // create junit test
     }
 }

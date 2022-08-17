@@ -15,3 +15,9 @@ Qdemo/src/test/java/com/example/demo/controllers/SetterInjectedControllerTest.ja
 Vdemo/src/test/java/com/example/demo/controllers/ConstructorInjectedControllerTest.java,0\8\08388749dc40f2923bf50e626ed9ed5ba74f8ab3
 ‚
 Rdemo/src/main/java/com/example/demo/controllers/ConstructorInjectedController.java,9\0\905e2d60dcaf427bdc994dff9912bf9c8f31d40c
+h
+8demo/src/main/java/com/example/demo/DemoApplication.java,b\b\bbb92027e3abb2f6f7442486303df9ca1e7dd41f
+
+Odemo/src/main/java/com/example/demo/controllers/PropertyInjectedController.java,1\d\1dbef1d3d30020f1ee3072ea774f433e8ecf1d51
+}
+Mdemo/src/main/java/com/example/demo/controllers/SetterInjectedController.java,6\1\61f5559220473a77a4559a1c1c491f5ab2403457

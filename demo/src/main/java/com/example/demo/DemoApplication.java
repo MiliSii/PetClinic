@@ -20,6 +20,7 @@ public class DemoApplication {
 		System.out.println(greeting);
 		// Hello World!!! and Hi Folks! are displayed as results
 
+
 	}
 
 }
