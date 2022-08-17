@@ -6,11 +6,9 @@ public class SetterInjectedController {
 
     private MyService myService;
 
-
     public void setMyService(MyService myService) {
         this.myService = myService;
     }
-
 
     public String getGreeting(){
         return myService.sayGreeting();
