@@ -1,10 +1,8 @@
 package com.example.demo.controllers;
 
-import com.example.demo.services.MyServiceImpl;
+import com.example.demo.services.ConstructorMyService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class SetterInjectedControllerTest {
     SetterInjectedController controller;
@@ -12,7 +10,7 @@ class SetterInjectedControllerTest {
     @BeforeEach
     void setUp() {
         controller=new SetterInjectedController();//instantiating the controller object
-        controller.setMyService(new MyServiceImpl());  //using the setter to inject that greeting service implementation.
+        controller.setMyService(new ConstructorMyService());  //using the setter to inject that greeting service implementation.
 
     }
 
