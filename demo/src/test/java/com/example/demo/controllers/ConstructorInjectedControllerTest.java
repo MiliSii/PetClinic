@@ -1,17 +1,15 @@
 package com.example.demo.controllers;
 
-import com.example.demo.services.MyServiceImpl;
+import com.example.demo.services.ConstructorMyService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class ConstructorInjectedControllerTest {
     ConstructorInjectedController controller;
 //the most preferred method
     @BeforeEach
     void setUp() {
-        controller=new ConstructorInjectedController(new MyServiceImpl());
+        controller=new ConstructorInjectedController(new ConstructorMyService());
         // creating a new constructor injected in controller and also at the same time creating that greeting service.
     }
 
