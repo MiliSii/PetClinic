@@ -25,7 +25,6 @@ public class MyController {
     }
 
 
-
     // in my controller  we've just added in the property for the greeting service. Added on the constructor.
     //No need for the @Autowired and also no need for the qualifier.
     //

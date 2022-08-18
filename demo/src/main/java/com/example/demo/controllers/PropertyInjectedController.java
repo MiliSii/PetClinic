@@ -9,6 +9,7 @@ import org.springframework.stereotype.Controller;
 
 @Controller
 public class PropertyInjectedController {
+
     @Qualifier("propertyInjectedGreetingService")
     //this qualifier is just giving Spring a hint as to which bean you want to have injected.
     @Autowired

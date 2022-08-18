@@ -39,7 +39,6 @@ public class DemoApplication {
 		ConstructorInjectedController constructorInjectedController = (ConstructorInjectedController) ctx.getBean("constructorInjectedController");
 		System.out.println(constructorInjectedController.getGreeting());
 
-
 	    //So  main class. But we added in to where we're calling on the context to give us a bean
 		//of property injected controller, the setter injected controller and the constructor injected controller.
 
