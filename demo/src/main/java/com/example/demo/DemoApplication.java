@@ -1,9 +1,7 @@
 package com.example.demo;
 
-import com.example.demo.controllers.ConstructorInjectedController;
-import com.example.demo.controllers.MyController;
-import com.example.demo.controllers.PropertyInjectedController;
-import com.example.demo.controllers.SetterInjectedController;
+import com.example.demo.controllers.*;
+import com.example.demo.services.LifeCycleDemoBean;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -15,6 +13,16 @@ public class DemoApplication {
 
 		ConfigurableApplicationContext ctx = SpringApplication.run(DemoApplication.class, args);
 		//in course is written ApplicationContext (it's not working) instead of ConfigurableApplicationContext
+
+		//for pets
+		PetController petController = ctx.getBean("petController", PetController.class);
+		System.out.println("--- The Best Pet is ---");
+		System.out.println(petController.whichPetIsTheBest());
+		//for i18n
+
+		I18nController i18nController = (I18nController) ctx.getBean("i18nController");
+		System.out.println(i18nController.sayHello());
+
 
 		MyController myController = (MyController) ctx.getBean("myController"); //spring is providing object
 

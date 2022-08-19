@@ -8,4 +8,5 @@ public class PropertyInjectedGreetingService implements MyService {
     public String sayGreeting() {
         return "Hello World - Property";
     }
+
 }

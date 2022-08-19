@@ -10,4 +10,5 @@ public class ConstructorMyService implements MyService {
     public String sayGreeting() {
         return "Hello World - Constructor";
     }
+
 }

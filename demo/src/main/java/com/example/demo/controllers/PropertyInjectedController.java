@@ -24,4 +24,5 @@ public class PropertyInjectedController {
     //So here we've created that greeting service interface. We have three Spring components that qualify for
     //this Dependency Injection because they all implement that interface. But Spring doesn't know which one
     //we want to be injected. We put in the qualifier hint so Spring now knows which one of these controllers gets which instance of the service.
+
 }
