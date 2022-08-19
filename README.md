@@ -1,7 +1,7 @@
 # PetClinic
 
 #lifecycle annotation
-
+--
 In this video, we're going to talk about the spring being life cycle. So we've been looking at dependency injection, but the way that spring framework actually creates a manages spring beans, they go through a very specific lifecycle.
 So you can see here, I've got a little flowchart as to how things go through and spring framework. First thing, of course, it's going to instantiate the class. Once the class has been created, it's going to populate properties. So any properties that you have, it's going to set those up.
 Then we do have some interfaces that we can implement if they are there. If you've implemented these interfaces, spring will execute these methods.
@@ -25,3 +25,6 @@ So the way you typically implement this, you're probably looking for a specific 
 There are 14 of them. These are are largely used within the spring framework. So if you're developing spring applications, going to be rare that you use these, but be aware. So if you do have a use case, you do get into cases where you do need to tap into these. These can be very handy. Again, it's rare, very rare that I've had to use it. I've worked with a lot of spring applications and it's pretty rare that I do need to work with them. These are some of the current ones. I'm not going to go through everyone. I'm going to leave the slides here for your reference.
 
 You can see there's a lot of them, a lot of different events that we can tap into and not all of these will be available for every application. But if you do need to tap into one of these to do something that these are really, really edge cases, but be aware that they are available there for you. If you do need to use them, they are available. So like everything in spring, it gives you a lot of capabilities, a lot of ways to do customizations.
+
+#Interface Naming
+---
