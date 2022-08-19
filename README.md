@@ -26,5 +26,7 @@ There are 14 of them. These are are largely used within the spring framework. So
 
 You can see there's a lot of them, a lot of different events that we can tap into and not all of these will be available for every application. But if you do need to tap into one of these to do something that these are really, really edge cases, but be aware that they are available there for you. If you do need to use them, they are available. So like everything in spring, it gives you a lot of capabilities, a lot of ways to do customizations.
 
-#Interface Naming
+#
 ---
+
+
