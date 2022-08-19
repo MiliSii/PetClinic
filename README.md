@@ -1,6 +1,6 @@
 # PetClinic
 
-#lifecycle annotation
+Lifecycle annotation
 --
 In this video, we're going to talk about the spring being life cycle. So we've been looking at dependency injection, but the way that spring framework actually creates a manages spring beans, they go through a very specific lifecycle.
 So you can see here, I've got a little flowchart as to how things go through and spring framework. First thing, of course, it's going to instantiate the class. Once the class has been created, it's going to populate properties. So any properties that you have, it's going to set those up.
