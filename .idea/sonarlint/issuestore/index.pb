@@ -13,8 +13,6 @@ Fdemo/src/main/java/com/example/demo/services/ConstructorMyService.java,8\7\87c
 Odemo/src/main/java/com/example/demo/services/SetterInjectedGreetingService.java,2\c\2c6d42ca09f1fbf7b9980dfbc179a06b5197814a
 Å
 Qdemo/src/main/java/com/example/demo/services/PropertyInjectedGreetingService.java,6\a\6a2101f8e9c4ee0e83a62cbfc8d4800d802de5cf
-k
-;demo/src/main/java/com/example/demo/services/MyService.java,f\a\facf2a99c5d384177bb360167de191cea5c7ae76
 y
 Idemo/src/main/java/com/example/demo/services/PrimaryGreeatingService.java,a\8\a81ed444568958054dc19ab5eebb508ccc0e8549
 }
@@ -29,13 +27,3 @@ Rdemo/src/main/java/com/example/demo/controllers/ConstructorInjectedController.j
 demo/pom.xml,f\1\f1bf400bc0784549511ea07030d3a798eb8c0511
 s
 Cdemo/src/main/java/com/example/demo/controllers/I18nController.java,e\9\e9ed9269d90a638497107c71d2b75355e3decefe
-|
-Ldemo/src/main/java/com/example/demo/services/I18nEnglishGreetingService.java,f\f\ffb9becf2904672df09a115860dae65bd24af4d8
-h
-8demo/src/main/java/com/example/demo/DemoApplication.java,b\b\bbb92027e3abb2f6f7442486303df9ca1e7dd41f
-l
-<demo/src/main/java/com/example/demo/services/PetService.java,5\b\5bbcc81815823dc4bdbc1d50aa5a1e3b9c9f36ee
-r
-Bdemo/src/main/java/com/example/demo/controllers/PetController.java,8\2\824523d2908a582733086665d50d44994cbfc732
-|
-Ldemo/src/main/java/com/example/demo/services/I18nSpanishGreetingService.java,c\8\c8a0e70fe50ce0d1207f0ff7860b3ade248a1133
