@@ -26,5 +26,4 @@ public class CustomBeanPostProcessor implements BeanPostProcessor {
         return bean;
     }
 
-
 }

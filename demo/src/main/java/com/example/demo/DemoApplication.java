@@ -24,7 +24,6 @@ public class DemoApplication {
 		System.out.println(i18nController.sayHello());
 
 
-
 		MyController myController = (MyController) ctx.getBean("myController"); //spring is providing object
 
         //this is for MyController before it was refactored to work with Primary Bean

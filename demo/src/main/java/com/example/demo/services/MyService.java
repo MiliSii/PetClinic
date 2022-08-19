@@ -5,5 +5,4 @@ public interface MyService {
 
     String sayGreeting(); //Alt + Enter -> implement interface -> MyServiceImpl
 
-
 }

@@ -72,4 +72,5 @@ public class LifeCycleDemoBean implements InitializingBean, DisposableBean, Bean
     //we had before from the variety of beans that we've been working with throughout this and right towards
     //
     //the bottom there you can see two more pre destroy and termination messages.
+
 }

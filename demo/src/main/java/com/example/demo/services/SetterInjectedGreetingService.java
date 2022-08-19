@@ -8,4 +8,5 @@ public class SetterInjectedGreetingService implements MyService{
     public String sayGreeting() {
         return "Hello World - Setter";
     }
+
 }

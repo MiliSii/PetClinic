@@ -22,6 +22,6 @@ public class I18nController {
 
     public String sayHello(){
         return myService.sayGreeting();
-
     }
+
 }
